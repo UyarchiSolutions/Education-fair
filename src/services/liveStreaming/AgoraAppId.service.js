@@ -514,7 +514,7 @@ const update_check_appid = async (req, data) => {
 const get_app_id = async (data) => {
 
 
-  const query = await axios.post(`https://seewe.co/v2/agora/get/app/id/assign`, data);
+  const query = await axios.post(`https://agriexpo.click/v2/agora/get/app/id/assign`, data);
 
   let create_app = await StreamAppID.create(
     {
