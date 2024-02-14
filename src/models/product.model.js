@@ -101,6 +101,24 @@ const productSchema = mongoose.Schema({
   biddingEndTime: {
     type: String,
   },
+  Pre_Eligibility_Criteria: {
+    type: String,
+  },
+  Students_Intake: {
+    type: String,
+  },
+  Avg_salary_Expected: {
+    type: String,
+  },
+  Course_Outcome_Roles: {
+    type: String,
+  },
+  Lab_Facility: {
+    type: String,
+  },
+  Course_Duration: {
+    type: String,
+  },
   maxBidAomunt: {
     type: Number,
   },
