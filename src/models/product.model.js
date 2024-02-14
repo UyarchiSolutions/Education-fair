@@ -119,6 +119,9 @@ const productSchema = mongoose.Schema({
   Course_Duration: {
     type: String,
   },
+  imageTitle: {
+    type: String,
+  },
   maxBidAomunt: {
     type: Number,
   },

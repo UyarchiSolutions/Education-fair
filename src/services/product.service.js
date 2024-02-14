@@ -1398,7 +1398,6 @@ const updateProductById = async (productId, updateBody, req) => {
       prod.image = image;
     }
   }
-
   prod.save();
 
 
